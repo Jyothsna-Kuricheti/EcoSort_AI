@@ -162,12 +162,6 @@ EcoSort_AI/
 ├── app/
 │   └── Application files
 │
-├── dataset/
-│   └── Dataset information
-│
-├── models/
-│   └── Trained model files
-│
 ├── notebook/
 │   └── Jupyter notebooks
 │
@@ -180,3 +174,6 @@ EcoSort_AI/
 ├── requirements.txt
 │
 └── README.md
+
+NOTE : The training dataset and trained CNN model are not included in this repository because of file-size and distribution considerations.
+The dataset and trained model are maintained separately for project development and deployment.

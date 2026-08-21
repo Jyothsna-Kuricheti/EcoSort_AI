@@ -178,7 +178,7 @@ EcoSort_AI/
 NOTE : The training dataset and trained CNN model are not included in this repository because of file-size and distribution considerations.
 The dataset and trained model are maintained separately for project development and deployment.
 
-##  Model Results
+## Model Results
 
 The trained CNN model was evaluated on **3,100 test images** using accuracy, precision, recall, F1-score, and a classification report.
 
@@ -211,7 +211,7 @@ The trained CNN model was evaluated on **3,100 test images** using accuracy, pre
 | Trash | 0.72 | 0.55 | 0.62 |
 | White Glass | 0.51 | 0.45 | 0.48 |
 
-###  Observations
+### Observations
 
 - The model achieved an overall accuracy of **73%**.
 - The highest F1-score was achieved for the **Clothes** category at **0.88**.

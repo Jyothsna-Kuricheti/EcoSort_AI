@@ -177,3 +177,44 @@ EcoSort_AI/
 
 NOTE : The training dataset and trained CNN model are not included in this repository because of file-size and distribution considerations.
 The dataset and trained model are maintained separately for project development and deployment.
+
+##  Model Results
+
+The trained CNN model was evaluated on **3,100 test images** using accuracy, precision, recall, F1-score, and a classification report.
+
+### Overall Performance
+
+| Metric | Score |
+|---|---:|
+| Accuracy | **73%** |
+| Macro Average Precision | **0.67** |
+| Macro Average Recall | **0.68** |
+| Macro Average F1-score | **0.67** |
+| Weighted Average Precision | **0.75** |
+| Weighted Average Recall | **0.73** |
+| Weighted Average F1-score | **0.73** |
+
+### Class-wise Performance
+
+| Waste Category | Precision | Recall | F1-score |
+|---|---:|---:|---:|
+| Battery | 0.66 | 0.60 | 0.63 |
+| Biological | 0.70 | 0.84 | 0.76 |
+| Brown Glass | 0.79 | 0.76 | 0.78 |
+| Cardboard | 0.70 | 0.79 | 0.75 |
+| Clothes | 0.92 | 0.85 | **0.88** |
+| Green Glass | 0.76 | 0.74 | 0.75 |
+| Metal | 0.34 | 0.58 | 0.43 |
+| Paper | 0.72 | 0.77 | 0.74 |
+| Plastic | 0.57 | 0.64 | 0.60 |
+| Shoes | 0.69 | 0.62 | 0.65 |
+| Trash | 0.72 | 0.55 | 0.62 |
+| White Glass | 0.51 | 0.45 | 0.48 |
+
+###  Observations
+
+- The model achieved an overall accuracy of **73%**.
+- The highest F1-score was achieved for the **Clothes** category at **0.88**.
+- The model also performed well on **Brown Glass, Biological, Cardboard, and Green Glass**.
+- **Metal** and **White Glass** were more challenging categories for the model.
+- The difference in class-wise performance indicates that some waste categories may require additional training data or further model optimization.
